@@ -27,6 +27,6 @@ script:
 #  - php bin/console setup:install-dev
 #  - php bin/console setup:admin
 #  - bin/codecept run --xml
-  - bin/php-cs-fixer fix --dry-run
+  - vendor/bin/php-cs-fixer fix --dry-run
 #after_success:
 #  - bash <(curl -s https://codecov.io/bash)
