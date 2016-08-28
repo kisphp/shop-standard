@@ -1,11 +1,16 @@
 {
-    "name": "symfony/framework-standard-edition",
+    "name": "kisphp/shop-standard",
     "license": "MIT",
     "type": "project",
-    "description": "The \"Symfony Standard Edition\" distribution",
+    "description": "Kisphp Ecommerce Shop system",
     "autoload": {
-        "psr-4": { "": "src/" },
-        "classmap": [ "app/AppKernel.php", "app/AppCache.php" ]
+        "psr-4": {
+            "": "src/"
+        },
+        "classmap": [
+            "app/AppKernel.php",
+            "app/AppCache.php"
+        ]
     },
     "autoload-dev": {
         "psr-4": { "Tests\\": "tests/" }
@@ -25,7 +30,8 @@
     },
     "require-dev": {
         "sensio/generator-bundle": "^3.0",
-        "symfony/phpunit-bridge": "^3.0"
+        "symfony/phpunit-bridge": "^3.0",
+        "friendsofphp/php-cs-fixer": "~1.9"
     },
     "scripts": {
         "symfony-scripts": [
