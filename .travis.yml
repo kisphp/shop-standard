@@ -26,7 +26,7 @@ script:
 #  - php bin/console doctrine:database:create
 #  - php bin/console setup:install-dev
 #  - php bin/console setup:admin
-#  - vendor/bin/codecept run --xml
-  - vendor/bin/php-cs-fixer fix --dry-run
+#  - bin/codecept run --xml
+  - bin/php-cs-fixer fix --dry-run
 #after_success:
 #  - bash <(curl -s https://codecov.io/bash)
