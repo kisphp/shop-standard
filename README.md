@@ -1,8 +1,12 @@
 Kisphp Ecommerce System
 =======================
 
-![Zac and Rio](app/web/zac-and-rio.jpg)
+[![Build Status](https://travis-ci.org/kisphp/shop-standard.svg?branch=master)](https://travis-ci.org/kisphp/shop-standard)
+[![codecov](https://codecov.io/gh/kisphp/shop-standard/branch/master/graph/badge.svg)](https://codecov.io/gh/kisphp/shop-standard)
 
+----
+
+![Zac and Rio](app/web/zac-and-rio.jpg)
 
 # Install
 
