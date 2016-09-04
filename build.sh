@@ -80,6 +80,7 @@ if [[ "$ENVIRONMENT" != "prod" ]]; then
 else
     labelText "Install composer dependencies, optimize autoloader"
     $COMPOSER install --no-dev --prefer-dist -o -a
+    writeErrorMessage "Composer is not installed"
 fi
 
 #labelText "Run setup:install"
@@ -90,6 +91,7 @@ fi
 
 if [[ $ENVIRONMENT != "prod" ]]; then
     $PHPUNIT -c app/
+    writeErrorMessage "phpunit is not installed"
 else
     infoText "Not development, no tests run"
 fi

@@ -48,3 +48,5 @@
 */Entity/*~
 .idea/
 _vm/
+web/index.php
+*.log
