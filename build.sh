@@ -64,7 +64,7 @@ labelText "Setup environment: $ENVIRONMENT"
 
 if [[ "$ENVIRONMENT" != "prod" ]]; then
     labelText "Install composer dependencies"
-    $COMPOSER install --prefer-dist
+    $COMPOSER install --prefer-dist --no-interaction
 
     labelText "Remove dev cache"
     rm -rf app/cache/dev
@@ -90,7 +90,7 @@ fi
 #$NPM install
 
 if [[ $ENVIRONMENT != "prod" ]]; then
-    $PHPUNIT -c app/
+    $PHPUNIT
     writeErrorMessage "phpunit is not installed"
 else
     infoText "Not development, no tests run"
