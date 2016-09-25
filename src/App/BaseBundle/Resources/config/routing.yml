@@ -1,0 +1,4 @@
+app_base_homepage:
+    path: /
+    defaults:
+        _controller: AppBaseBundle:Default:index
