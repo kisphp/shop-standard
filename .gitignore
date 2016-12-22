@@ -50,3 +50,4 @@
 _vm/
 web/index.php
 *.log
+web/.htaccess
